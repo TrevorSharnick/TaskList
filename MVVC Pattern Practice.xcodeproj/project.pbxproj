@@ -11,6 +11,11 @@
 		BD24E4332C4084A100D1A974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24E4322C4084A100D1A974 /* ContentView.swift */; };
 		BD24E4352C4084A300D1A974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24E4342C4084A300D1A974 /* Assets.xcassets */; };
 		BD24E4382C4084A300D1A974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24E4372C4084A300D1A974 /* Preview Assets.xcassets */; };
+		BD24E43F2C4084D300D1A974 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24E43E2C4084D300D1A974 /* Task.swift */; };
+		BD24E4412C40851D00D1A974 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24E4402C40851D00D1A974 /* TaskViewModel.swift */; };
+		BD24E4432C40864F00D1A974 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24E4422C40864F00D1A974 /* TaskListView.swift */; };
+		BD24E4452C40871E00D1A974 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24E4442C40871E00D1A974 /* TaskView.swift */; };
+		BD24E4472C408AA000D1A974 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = BD24E4462C408AA000D1A974 /* ReadMe */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BD24E4322C4084A100D1A974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD24E4342C4084A300D1A974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD24E4372C4084A300D1A974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD24E43E2C4084D300D1A974 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BD24E4402C40851D00D1A974 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		BD24E4422C40864F00D1A974 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		BD24E4442C40871E00D1A974 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		BD24E4462C408AA000D1A974 /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		BD24E42F2C4084A100D1A974 /* MVVC Pattern Practice */ = {
 			isa = PBXGroup;
 			children = (
+				BD24E4462C408AA000D1A974 /* ReadMe */,
 				BD24E4302C4084A100D1A974 /* MVVC_Pattern_PracticeApp.swift */,
 				BD24E4322C4084A100D1A974 /* ContentView.swift */,
+				BD24E43E2C4084D300D1A974 /* Task.swift */,
+				BD24E4402C40851D00D1A974 /* TaskViewModel.swift */,
+				BD24E4422C40864F00D1A974 /* TaskListView.swift */,
+				BD24E4442C40871E00D1A974 /* TaskView.swift */,
 				BD24E4342C4084A300D1A974 /* Assets.xcassets */,
 				BD24E4362C4084A300D1A974 /* Preview Content */,
 			);
@@ -127,6 +142,7 @@
 			files = (
 				BD24E4382C4084A300D1A974 /* Preview Assets.xcassets in Resources */,
 				BD24E4352C4084A300D1A974 /* Assets.xcassets in Resources */,
+				BD24E4472C408AA000D1A974 /* ReadMe in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD24E4332C4084A100D1A974 /* ContentView.swift in Sources */,
+				BD24E4412C40851D00D1A974 /* TaskViewModel.swift in Sources */,
+				BD24E4432C40864F00D1A974 /* TaskListView.swift in Sources */,
+				BD24E4452C40871E00D1A974 /* TaskView.swift in Sources */,
+				BD24E43F2C4084D300D1A974 /* Task.swift in Sources */,
 				BD24E4312C4084A100D1A974 /* MVVC_Pattern_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,12 @@
+The MVVC Architectural Pattern helps ensure the separation of concerns:
+
+MODEL
+- Task.swift
+
+VIEW
+- TaskView.swift
+- TaskListView.swift
+
+VIEW-MODEL CONTROLLER
+- TaskViewModel.swift
+
