@@ -31,6 +31,9 @@ struct TaskListView: View {
                 }
             }
             .navigationTitle("Tasks")
+            .toolbar {
+                EditButton()
+            }
         }
     }
 }
