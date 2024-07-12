@@ -27,6 +27,7 @@ struct TaskListView: View {
                         task in
                         TaskView(task: task, viewModel: viewModel)
                     }
+                    .onDelete(perform: viewModel.removeTask)
                 }
             }
             .navigationTitle("Tasks")

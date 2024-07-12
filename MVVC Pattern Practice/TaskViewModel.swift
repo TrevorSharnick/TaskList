@@ -28,4 +28,8 @@ class TaskViewModel: ObservableObject {
         }
         
     }
+    
+    func removeTask(at offsets: IndexSet) {
+        tasks.remove(atOffsets: offsets)
+    }
 }
